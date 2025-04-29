@@ -106,7 +106,7 @@ ____
 
 This visualization presents GDP growth trends from 2020 to 2022 for Bangladesh, India, and the United States.
 
-#Key Features:
+### Key Features:
 
 Line Chart: Visualizes the annual GDP changes for all three countries.
 
@@ -115,7 +115,7 @@ Interactive Filters: Allows selection of specific years or countries for focused
 Tooltips: Hovering over each data point reveals exact GDP values and growth rates for that year.
 
 
-#Insights:
+#### Insights:
 
 Bangladesh shows a notable increase in GDP between 2021 and 2022, indicating a strong post-pandemic recovery.
 
