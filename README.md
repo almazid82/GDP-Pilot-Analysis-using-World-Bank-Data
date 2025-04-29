@@ -1,6 +1,9 @@
 # GDP-Pilot-Analysis-using-World-Bank-Data
 This is a pilot project where we analyze GDP data for selected countries using **SQL**, **Python**, and **Tableau**. The goal is to understand GDP trends, compare between countries, and build visualizations for presentation.
 
+![GDP Comparison Dashboard](https://github.com/almazid82/GDP-Pilot-Analysis-using-World-Bank-Data/blob/main/Screenshot_20250429-142013%7E2.png?raw=true)
+
+
 ---
 
 ## 1. Dataset Description
