@@ -101,9 +101,33 @@ plt.tight_layout()
 plt.show()
 ```
 ____
+![GDP Dashboard](https://github.com/almazid82/GDP-Pilot-Analysis-using-World-Bank-Data/blob/main/Screenshot_20250429-141132%7E2.png?raw=true)
+## Description & Analysis:
+
+This visualization presents GDP growth trends from 2020 to 2022 for Bangladesh, India, and the United States.
+
+#Key Features:
+
+Line Chart: Visualizes the annual GDP changes for all three countries.
+
+Interactive Filters: Allows selection of specific years or countries for focused analysis.
+
+Tooltips: Hovering over each data point reveals exact GDP values and growth rates for that year.
 
 
+#Insights:
 
+Bangladesh shows a notable increase in GDP between 2021 and 2022, indicating a strong post-pandemic recovery.
+
+India experienced a sharp rebound in 2021, reflecting rapid economic recovery.
+
+USA maintains the highest GDP among the three, with consistent and stable growth over the observed period.
+
+
+This visualization helps users compare and understand country-wise economic performance and recovery patterns following the global pandemic.
+
+
+___
 
 
 
