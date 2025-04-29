@@ -27,3 +27,24 @@ SELECT country_name, year, gdp
 FROM world_gdp
 WHERE country_name IN ('Bangladesh', 'India', 'USA')
 AND year BETWEEN 2000 AND 2022;
+
+
+____
+
+
+## output:
+
+Country Name | Year | GDP (Current US$)     |
+|--------------|------|------------------------|
+| Bangladesh   | 2020 | 302571000000           |
+| Bangladesh   | 2021 | 416264000000           |
+| Bangladesh   | 2022 | 460000000000           |
+| India        | 2020 | 2668670000000          |
+| India        | 2021 | 3176290000000          |
+| India        | 2022 | 3393000000000          |
+| USA          | 2020 | 20937000000000         |
+| USA          | 2021 | 23151000000000         |
+| USA          | 2022 | 25460000000000         |
+
+
+---
