@@ -100,3 +100,32 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 ```
+____
+
+
+
+
+
+
+## Step 3: Tableau Dashboard Visualization
+
+After SQL filtering and Python-based analysis, we created a dynamic and interactive dashboard using Tableau to visually explore GDP trends.
+
+### Key Features of the Dashboard:
+- **Line Chart:** Displays GDP growth from 2020 to 2022 for Bangladesh, India, and USA.
+- **Filter Options:** Year-wise and Country-wise filters to customize views.
+- **Interactive Tooltips:** Hovering over any point shows exact GDP values and growth rates.
+
+### Tableau Screenshot:
+
+![Tableau GDP Dashboard](images/tableau_gdp_dashboard.png)
+
+*(Replace this image with a real screenshot of your Tableau dashboard)*
+
+### Insights Gained from Dashboard:
+- Bangladesh's GDP has shown a strong growth trajectory post-2020.
+- India's GDP rebounded sharply in 2021, showing recovery from pandemic impacts.
+- The USA shows steady growth, maintaining its lead as the world’s largest economy.
+
+### Tableau File:
+You can find the Tableau dashboard in the following location:
