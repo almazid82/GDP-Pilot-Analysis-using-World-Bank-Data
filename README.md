@@ -154,21 +154,41 @@ ___
 
 After SQL filtering and Python-based analysis, we created a dynamic and interactive dashboard using Tableau to visually explore GDP trends.
 
-### Key Features of the Dashboard:
-- **Line Chart:** Displays GDP growth from 2020 to 2022 for Bangladesh, India, and USA.
-- **Filter Options:** Year-wise and Country-wise filters to customize views.
-- **Interactive Tooltips:** Hovering over any point shows exact GDP values and growth rates.
+# **Creating a Tableau GDP Dashboard (2020–2022)**
 
-### Tableau Screenshot:
+## **Step 1: Import the Data**
+1. Open **Tableau** and connect to the CSV file (`world_gdp.csv`).
+2. Ensure the dataset contains:
+   - **Country Name**
+   - **Year**
+   - **GDP (Current US$)**
 
-![Tableau GDP Dashboard](images/tableau_gdp_dashboard.png)
+## **Step 2: Create the Line Chart**
+1. Drag **Year** to `Columns`.
+2. Drag **GDP (Current US$)** to `Rows`.
+3. Drag **Country Name** to `Color` to differentiate between Bangladesh, India, and USA.
+4. Change the chart type to **Line Chart**.
+5. Format:
+   - Add **Gridlines** for better readability.
+   - Use **Legible Axis Labels**.
 
-*(Replace this image with a real screenshot of your Tableau dashboard)*
+## **Step 3: Add Filters for Interactivity**
+1. Drag **Year** and **Country Name** to `Filters`.
+2. Enable **Dropdown Selectors** so users can filter GDP trends interactively.
 
-### Insights Gained from Dashboard:
-- Bangladesh's GDP has shown a strong growth trajectory post-2020.
-- India's GDP rebounded sharply in 2021, showing recovery from pandemic impacts.
-- The USA shows steady growth, maintaining its lead as the world’s largest economy.
+## **Step 4: Format & Style the Dashboard**
+1. Add **Title:** `"GDP Trends Dashboard (2020–2022)"`.
+2. Customize fonts, colors, and **tooltip settings**.
+3. Enable **Hover Tooltips** showing GDP values per year.
 
-### Tableau File:
-You can find the Tableau dashboard in the following location:
+## **Final Touches & Publishing**
+1. Ensure interactivity works correctly.
+2. **Save & Export** the dashboard.
+3. Share insights based on trends:
+   - **Bangladesh:** Steady growth post-2020.
+   - **India:** Sharp GDP rise in 2021.
+   - **USA:** Consistent economic expansion.
+
+---
+
+💡 *Following these steps ensures a professional, interactive GDP dashboard in Tableau!* 🚀
