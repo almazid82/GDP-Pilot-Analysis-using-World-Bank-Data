@@ -154,16 +154,16 @@ ___
 
 After SQL filtering and Python-based analysis, we created a dynamic and interactive dashboard using Tableau to visually explore GDP trends.
 
-# **Creating a Tableau GDP Dashboard (2020–2022)**
+## **Creating a Tableau GDP Dashboard (2020–2022)**
 
-## **Step 1: Import the Data**
+### **Step 1: Import the Data**
 1. Open **Tableau** and connect to the CSV file (`world_gdp.csv`).
 2. Ensure the dataset contains:
    - **Country Name**
    - **Year**
    - **GDP (Current US$)**
 
-## **Step 2: Create the Line Chart**
+### **Step 2: Create the Line Chart**
 1. Drag **Year** to `Columns`.
 2. Drag **GDP (Current US$)** to `Rows`.
 3. Drag **Country Name** to `Color` to differentiate between Bangladesh, India, and USA.
@@ -172,16 +172,16 @@ After SQL filtering and Python-based analysis, we created a dynamic and interact
    - Add **Gridlines** for better readability.
    - Use **Legible Axis Labels**.
 
-## **Step 3: Add Filters for Interactivity**
+### **Step 3: Add Filters for Interactivity**
 1. Drag **Year** and **Country Name** to `Filters`.
 2. Enable **Dropdown Selectors** so users can filter GDP trends interactively.
 
-## **Step 4: Format & Style the Dashboard**
+### **Step 4: Format & Style the Dashboard**
 1. Add **Title:** `"GDP Trends Dashboard (2020–2022)"`.
 2. Customize fonts, colors, and **tooltip settings**.
 3. Enable **Hover Tooltips** showing GDP values per year.
 
-## **Final Touches & Publishing**
+### **Final Touches & Publishing**
 1. Ensure interactivity works correctly.
 2. **Save & Export** the dashboard.
 3. Share insights based on trends:
