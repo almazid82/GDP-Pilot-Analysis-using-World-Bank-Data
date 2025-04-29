@@ -27,11 +27,10 @@ SELECT country_name, year, gdp
 FROM world_gdp
 WHERE country_name IN ('Bangladesh', 'India', 'USA')
 AND year BETWEEN 2000 AND 2022;
-
+```
 
 ____
-
- **output**
+**output**
 
 Country Name | Year | GDP (Current US$)     |
 |--------------|------|------------------------|
