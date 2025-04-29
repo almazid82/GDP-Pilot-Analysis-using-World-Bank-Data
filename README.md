@@ -1,4 +1,4 @@
-# **Economic 📈 Recovery Through GDP: A Data Story**
+# **📈 Economic Recovery Through GDP: A Data Story**
   
 
 ## **Introduction**  
