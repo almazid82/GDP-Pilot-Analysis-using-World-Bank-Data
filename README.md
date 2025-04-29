@@ -63,3 +63,40 @@ This filtered dataset will be used in the next steps for Python-based visualizat
 
 
 ---
+
+
+
+
+## Step 2: Python for Analysis and Visualization
+
+After filtering the dataset using SQL, we use Python (pandas, matplotlib) to analyze and visualize the GDP trends of Bangladesh, India, and the USA.
+
+### Python Libraries Used:
+- pandas
+- matplotlib
+- seaborn *(optional)*
+
+### Python Code:
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load dataset
+df = pd.read_csv('data/world_gdp.csv')
+
+# Filter for selected countries and years
+df = df[df['Country Name'].isin(['Bangladesh', 'India', 'USA'])]
+df = df[(df['Year'] >= 2020) & (df['Year'] <= 2022)]
+
+# Pivot for visualization
+pivot_df = df.pivot(index='Year', columns='Country Name', values='GDP')
+
+# Plot the GDP trend
+pivot_df.plot(figsize=(10, 6), marker='o')
+plt.title("GDP Trend (2020-2022): Bangladesh vs India vs USA")
+plt.ylabel("GDP in Current US Dollars")
+plt.xlabel("Year")
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+```
