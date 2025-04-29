@@ -1,10 +1,26 @@
-# GDP-Pilot-Analysis-using-World-Bank-Data
-This is a pilot project where we analyze GDP data for selected countries using **SQL**, **Python**, and **Tableau**. The goal is to understand GDP trends, compare between countries, and build visualizations for presentation.
+# **Economic Recovery Through GDP: A Data Story**
+  
+
+## **Introduction**  
+
+After the global economic disruptions of 2020, GDP trends became a key indicator of recovery. Some nations rebounded rapidly, while others experienced steady but slower growth. Understanding GDP dynamics helps uncover **economic resilience, policy impacts, and long-term growth trajectories**.  
+
+This study explores the GDP trends of **Bangladesh, India, and the USA** from **2020 to 2022** using **SQL, Python, and Tableau**, highlighting key shifts in their economic journeys.  
+
+## **Why GDP Trends Matter**  
+
+- **📈 Bangladesh:** Steady post-pandemic growth, showcasing resilience in emerging economies.  
+- **🚀 India:** A sharp GDP rebound in 2021, reflecting rapid economic recovery strategies.  
+- **🏛️ USA:** Continued stable growth, maintaining its role as the world’s largest economy.  
+
+By combining **data-driven storytelling** with **advanced visualization techniques**, this project transforms raw GDP numbers into **actionable insights** for better economic analysis.
+
 
 ![GDP Comparison Dashboard](https://github.com/almazid82/GDP-Pilot-Analysis-using-World-Bank-Data/blob/main/Screenshot_20250429-142013%7E2.png?raw=true)
 
 
 ---
+
 
 ## 1. Dataset Description
 
