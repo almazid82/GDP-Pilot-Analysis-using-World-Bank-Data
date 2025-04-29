@@ -30,7 +30,8 @@ AND year BETWEEN 2000 AND 2022;
 ```
 
 ____
-**output**
+
+#**SQL output is :**
 
 Country Name | Year | GDP (Current US$)     |
 |--------------|------|------------------------|
