@@ -31,8 +31,7 @@ AND year BETWEEN 2000 AND 2022;
 
 ____
 
-
-## output:
+ **output**
 
 Country Name | Year | GDP (Current US$)     |
 |--------------|------|------------------------|
@@ -45,6 +44,22 @@ Country Name | Year | GDP (Current US$)     |
 | USA          | 2020 | 20937000000000         |
 | USA          | 2021 | 23151000000000         |
 | USA          | 2022 | 25460000000000         |
+
+
+---
+### SQL Output Explanation
+
+The table above displays the GDP (in current US dollars) for Bangladesh, India, and the USA from 2020 to 2022. This data was extracted using a SQL query that filters the dataset based on:
+
+- Selected Countries: Bangladesh, India, USA
+- Selected Years: 2020, 2021, and 2022
+
+#### Key Insights:
+- **Bangladesh** shows a consistent increase in GDP from $302.6B in 2020 to $460B in 2022.
+- **India** also demonstrates strong growth, reaching over $3.39 trillion in 2022.
+- **USA** remains the largest economy, crossing $25 trillion GDP in 2022.
+
+This filtered dataset will be used in the next steps for Python-based visualization and Tableau dashboard creation.
 
 
 ---
